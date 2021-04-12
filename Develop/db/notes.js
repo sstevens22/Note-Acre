@@ -27,7 +27,7 @@ class Notes {
             return notesArray;
         })
     }
-    addNotes(notes) {
+    addNotes(note) {
         console.log("add notes");
         const { title, text } = note;
         const newNote = { title, text, id: ++this.ph }
